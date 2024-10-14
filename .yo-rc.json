@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.2.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "compenstation-change",
+    "libraryId": "a69ab553-e624-4d60-bb4f-dab6d1d2a06d",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "CompenstationChange",
+    "solutionShortDescription": "CompenstationChange description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

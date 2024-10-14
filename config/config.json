@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "compensation-change-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/compensationChange/CompensationChangeWebPart.js",
+          "manifest": "./src/webparts/compensationChange/CompensationChangeWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CompensationChangeWebPartStrings": "lib/webparts/compensationChange/loc/{locale}.js"
+  }
+}

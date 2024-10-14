@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "compenstation-change-client-side-solution",
+    "id": "a69ab553-e624-4d60-bb4f-dab6d1d2a06d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "CompenstationChange description"
+      },
+      "longDescription": {
+        "default": "CompenstationChange description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "compenstation-change Feature",
+        "description": "The feature that activates elements of the compenstation-change solution.",
+        "id": "38ef8ba9-8eba-4f41-9a3e-a7ca1a257289",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/compenstation-change.sppkg"
+  }
+}
